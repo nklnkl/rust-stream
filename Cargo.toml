@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 dotenv = "0.15.0"
+ffmpeg-next = "6.0.0"
+
+[target.x86_64-pc-windows-gnu]
+linker = "C:\\msys64\\mingw64\\bin\\gcc.exe"

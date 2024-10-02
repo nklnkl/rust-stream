@@ -1,4 +1,3 @@
-use std::path::Path;
 use ffmpeg_next as ffmpeg;
 use dotenv::dotenv;
 use std::env;
